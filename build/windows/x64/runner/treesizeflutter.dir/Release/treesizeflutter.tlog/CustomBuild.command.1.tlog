@@ -1,0 +1,10 @@
+^C:\_LOKALE_DATEN_UNGESICHERT\SOURCE\GITEA\TREESIZEFLUTTER\WINDOWS\RUNNER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/_Lokale_Daten_ungesichert/source/gitea/TreeSizeFlutter/windows -BC:/_Lokale_Daten_ungesichert/source/gitea/TreeSizeFlutter/build/windows/x64 --check-stamp-file C:/_Lokale_Daten_ungesichert/source/gitea/TreeSizeFlutter/build/windows/x64/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

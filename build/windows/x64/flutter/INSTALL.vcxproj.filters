@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\_Lokale_Daten_ungesichert\source\gitea\TreeSizeFlutter\build\windows\x64\CMakeFiles\2879f3bb98fcd43d3a59e9424bd8b220\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{271DD7E2-BB0A-3803-B72C-413842A720ED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
