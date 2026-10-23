@@ -3,8 +3,10 @@
 *.log
 *.pyc
 *.swp
+*.vb
 .DS_Store
 .atom/
+.build/
 .buildlog/
 .history
 .svn/
@@ -29,6 +31,7 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
+/build/
 /coverage/
 
 # Symbolication related
